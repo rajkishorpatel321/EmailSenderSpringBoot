@@ -1,0 +1,82 @@
+2023-08-15T17:18:04.494+05:30  INFO 27152 --- [main] c.t.j.JobserchMailApplication            : Starting JobserchMailApplication using Java 17.0.7 with PID 27152 (C:\Users\HP\Downloads\jobserchMail\jobserchMail\target\classes started by HP in C:\Users\HP\Downloads\jobserchMail\jobserchMail)
+2023-08-15T17:18:04.497+05:30  INFO 27152 --- [main] c.t.j.JobserchMailApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-08-15T17:18:05.705+05:30  INFO 27152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-15T17:18:05.721+05:30  INFO 27152 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-15T17:18:05.722+05:30  INFO 27152 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-15T17:18:05.845+05:30  INFO 27152 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-15T17:18:05.846+05:30  INFO 27152 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1266 ms
+2023-08-15T17:18:06.339+05:30  INFO 27152 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15T17:18:06.357+05:30  INFO 27152 --- [main] c.t.j.JobserchMailApplication            : Started JobserchMailApplication in 2.35 seconds (process running for 3.728)
+2023-08-15T17:18:16.934+05:30  INFO 27152 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-15T17:18:16.935+05:30  INFO 27152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-15T17:18:16.936+05:30  INFO 27152 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-15T17:18:17.015+05:30  INFO 27152 --- [http-nio-8080-exec-1] c.t.j.controller.MailController          : sara.fathy@digiflyeg.com
+2023-08-15T17:18:17.102+05:30  INFO 27152 --- [http-nio-8080-exec-1] c.t.jobserchMail.aop.LoggingAsecept      : try to fatch mail id sara.fathy@digiflyeg.com
+2023-08-15T17:24:24.785+05:30  INFO 27152 --- [RMI TCP Connection(17)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-08-15T17:24:25.114+05:30  INFO 27152 --- [RMI TCP Connection(17)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-15T17:24:25.144+05:30  INFO 27152 --- [RMI TCP Connection(17)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-15T17:24:28.625+05:30 ERROR 19152 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level.com.tirlok' to org.springframework.boot.logging.LogLevel:
+
+    Property: logging.level.com.tirlok
+    Value: "ERORR"
+    Origin: class path resource [application.properties] - 11:26
+    Reason: failed to convert java.lang.String to org.springframework.boot.logging.LogLevel (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.logging.LogLevel.ERORR)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    DEBUG
+    ERROR
+    FATAL
+    INFO
+    OFF
+    TRACE
+    WARN
+
+2023-08-15T17:24:46.277+05:30  INFO 17944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-15T17:24:46.304+05:30  INFO 17944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-15T17:24:46.305+05:30  INFO 17944 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-15T17:24:46.519+05:30  INFO 17944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-15T17:24:46.521+05:30  INFO 17944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1943 ms
+2023-08-15T17:24:47.478+05:30  INFO 17944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15T17:24:54.053+05:30  INFO 17944 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-15T17:24:54.055+05:30  INFO 17944 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-15T17:24:54.058+05:30  INFO 17944 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-08-15T17:24:54.147+05:30 ERROR 17944 --- [http-nio-8080-exec-2] c.t.j.controller.MailController          : sara.fathy@digiflyeg.com
+2023-08-15T17:25:19.181+05:30 ERROR 17944 --- [http-nio-8080-exec-3] c.t.j.controller.MailController          : sara.fathy@digiflyeg.com
+2023-08-15T17:29:30.719+05:30  INFO 17944 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-08-15T17:29:30.745+05:30  INFO 17944 --- [RMI TCP Connection(13)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-15T17:29:30.748+05:30  INFO 17944 --- [RMI TCP Connection(13)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-15T17:29:36.833+05:30  INFO 26968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-15T17:29:36.855+05:30  INFO 26968 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-15T17:29:36.856+05:30  INFO 26968 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-15T17:29:37.028+05:30  INFO 26968 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-15T17:29:37.028+05:30  INFO 26968 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1800 ms
+2023-08-15T17:29:37.716+05:30  INFO 26968 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-15T17:29:45.856+05:30  INFO 26968 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-15T17:29:45.859+05:30  INFO 26968 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-15T17:29:45.862+05:30  INFO 26968 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-15T17:29:45.953+05:30 ERROR 26968 --- [http-nio-8080-exec-3] c.t.j.controller.MailController          : sara.fathy@digiflyeg.com
+2023-08-15T17:29:55.370+05:30 ERROR 26968 --- [http-nio-8080-exec-3] c.t.jobserchMail.service.MailService     : Mail sent Successfully
+2023-08-15T17:30:19.190+05:30 ERROR 26968 --- [http-nio-8080-exec-2] c.t.j.controller.MailController          : kimmy@lomatechnology.com
+2023-08-15T17:30:25.460+05:30 ERROR 26968 --- [http-nio-8080-exec-2] c.t.jobserchMail.service.MailService     : Mail sent Successfully
+2023-08-15T17:31:44.385+05:30 ERROR 26968 --- [http-nio-8080-exec-6] c.t.j.controller.MailController          : Hiringtn@rgigroup.com
+2023-08-15T17:31:49.779+05:30 ERROR 26968 --- [http-nio-8080-exec-6] c.t.jobserchMail.service.MailService     : Mail sent Successfully
+2023-08-15T17:32:07.504+05:30 ERROR 26968 --- [http-nio-8080-exec-7] c.t.j.controller.MailController          : hr@webbuggs.com
+2023-08-15T17:32:14.620+05:30 ERROR 26968 --- [http-nio-8080-exec-7] c.t.jobserchMail.service.MailService     : Mail sent Successfully
+2023-08-15T17:32:30.591+05:30 ERROR 26968 --- [http-nio-8080-exec-8] c.t.j.controller.MailController          : Rahul.singh@pyramidci.com
+2023-08-15T17:32:35.664+05:30 ERROR 26968 --- [http-nio-8080-exec-8] c.t.jobserchMail.service.MailService     : Mail sent Successfully
+2023-08-15T17:33:46.748+05:30 ERROR 26968 --- [http-nio-8080-exec-1] c.t.j.controller.MailController          : gsharma@pg-rec.com
+2023-08-15T17:33:52.387+05:30 ERROR 26968 --- [http-nio-8080-exec-1] c.t.jobserchMail.service.MailService     : Mail sent Successfully
+2023-08-15T20:04:13.578+05:30  INFO 26968 --- [RMI TCP Connection(126)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-08-15T20:04:14.048+05:30  INFO 26968 --- [RMI TCP Connection(126)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-15T20:04:14.099+05:30  INFO 26968 --- [RMI TCP Connection(126)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
