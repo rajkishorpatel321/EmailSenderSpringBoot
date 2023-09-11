@@ -52,7 +52,7 @@ public class MailService {
  
             // Sending the mail
             javaMailSender.send(mimeMessage);
-            LOGGER.error("Mail sent Successfully");
+            //LOGGER.error("Mail sent Successfully");
             return "Mail sent Successfully";
         }
  
